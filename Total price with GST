@@ -1,0 +1,19 @@
+import java.util.*;
+/**
+ * First
+ */
+public class First {
+
+    public static void main(String[] args){
+       Scanner sc = new Scanner(System.in);
+       float pencil =sc.nextInt();
+       float pen =sc.nextInt();
+       float eraser =sc.nextInt();
+       float totalcost=pencil+pen+eraser;
+       System.out.println("Total cost of the item without GST:"+totalcost);
+       float total= totalcost + (.18f *totalcost);
+       System.out.println("Total bill with GST:"+total);
+      
+
+    }  
+    }
